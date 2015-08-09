@@ -1,0 +1,14 @@
+- school: Troy University
+  link: http://www.troy.edu
+  location: Troy, AL
+  degree: B.S.
+  major: Biology
+  minor: Chemistry
+  graduation_date: 2001
+
+- school: City Colleges of Chicago
+  link: http://www.ccc.edu/colleges/washington/Pages/default.aspx
+  location: Hohenfels, Germany
+  degree: A.A.S.
+  major: General Studies
+  graduation_date: 1997

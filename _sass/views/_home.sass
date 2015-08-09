@@ -1,0 +1,23 @@
+.home
+  padding: $large-padding
+  text-align: center
+  +animation(grow)
+  img 
+    max-width: 400px
+    margin: 0 auto
+    text-align: center
+  +media-min(750px)
+    +display-flex
+    +flex-align-items(center)
+    &--image, &--content
+      +flex(1 0 50%)
+    &--image
+      +flex-order(1)
+    &--content
+      +flex-order(0)
+      text-align: left
+  +media-min(1000px)
+    +flex-justify-content(center)
+    &--content, &--image
+      margin: 0 10px
+      max-width: 400px

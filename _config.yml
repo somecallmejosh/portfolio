@@ -1,0 +1,43 @@
+# Site settings
+title: Joshua Briley
+sub_title: UI Designer & Front End Dev
+email: josh@thebrileys.com
+phone_number: (860) 531-8250
+twitter_username: joshuabriley
+github_username:  somecallmejosh
+dribbble_username: joshuabriley
+treehouse_username: joshuabriley
+work_org: Sports Technologies, LLC
+work_link: http://www.sportstechinc.com
+description: Web design and development portfolio of Joshua Briley
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog/
+url: "http://joshuabriley.com" # the base hostname & protocol for your site
+# sass:
+#   style: :compressed
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+#Default Settings
+defaults: 
+  - 
+    scope: 
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: Joshua Briley
+      category: design
+      permalink: /blog/:title/
+  - 
+    scope: 
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+collections:
+  portfolio_items:
+    output: true
+    permalink: /projects/:title/

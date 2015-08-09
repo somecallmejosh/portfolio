@@ -1,0 +1,22 @@
+---
+title:  "Simple HTML5 Video"
+date:   2015-01-22 22:12:02
+categories: video
+main_image: "video-camera.jpg"
+video_main: "https://ia601904.us.archive.org/2/items/CLUTCHCARGOTheMissingTrain/CLUTCH_CARGO_The_Missing_Train.mp4"
+video_secondary: "https://ia801904.us.archive.org/2/items/CLUTCHCARGOTheMissingTrain/CLUTCH_CARGO_The_Missing_Train.ogv"
+video_caption: "simple-html-vid.vtt"
+flickr_attribution: Peter Taylor
+flickr_link:  https://www.flickr.com/photos/nickstone333/13766567173/in/photolist-mYvfNr-imeQjQ-4LU5Dc-5ndB3s-76F2zt-6ey32M-5n9mqZ-4nESXh-71kouv-55kFNw-d2bMiU-b3PLgD-9ioxqv-5H7kSf-5NpLgC-9zKqWv-5H33RM-9ApKrj-5af3L7-71pfSh-fUvvvU-8thqR5-d2bMqS-81GJWB-8aFkaQ-d2bzdA-6Z5sfB-eKNE3W-6mTd5K-5b4UAh-fjBRSR-dyBmco-hbU2aP-823sMC-kPe8Bh-ajXkqs-d2kkFs-4cWQvp-e6MxtB-fUvvyj-ob5CtH-pft54p-4FbfHF-wAhPh-e9MaqJ-jT2S6x-5H33DT-kgN6CH-adKVbu-bHNoTc
+flickr_license: "https://creativecommons.org/licenses/by-nc/2.0/"
+---
+
+Learning how to work with the HTML video api is pretty cool stuff. It's really flexible, and much cooler than just embedding Youtube vids. It's a lot simpler than I expected it to be, too.
+
+{% highlight html %}
+<video controls>
+  <source src="http://link-to-video.com/vid.mp3">
+  <source src="http://link-to-video.com/vid.ogg">
+  <track kind="subtitles" src="http://link-to-video.com/caption.vtt" srclang="en" label="English">
+</video>
+{% endhighlight %}

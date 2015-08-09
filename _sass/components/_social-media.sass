@@ -1,0 +1,17 @@
+.social-media-list
+  margin: 0
+  padding: 0
+  width: 100%
+  li
+    list-style: none
+    +flex(1 0 20%)
+    background-color: $white
+    padding: $default-padding $small-padding
+    text-align: center
+  svg 
+    fill: $black
+    @extend %default-transition
+    &:hover, &:active, &:focus 
+      fill: $link-color
+  span
+    display: none

@@ -1,0 +1,30 @@
+.testimonials
+  .card
+    +animation(grow)
+  +media-min(320px)
+    img 
+      float: right
+      margin: 0 0 $default-padding $default-padding
+      border-radius: 100%
+    cite
+      display: block
+      margin-top: $small-padding
+    .card
+      display: block
+      width: 100%
+  +media-min(600px)
+    +display-flex
+    +flex-wrap(wrap)
+    +flex-justify-content(center)
+    .card 
+      +flex(1 0 48%)
+      max-width: 48%
+      margin: 0 $small-padding $default-padding
+      img
+        display: block
+        float: none
+        margin: 0 auto $default-padding
+  +media-min(1000px)
+    .card
+      +flex(1 0 32%)
+      max-width: 32%

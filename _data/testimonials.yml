@@ -1,0 +1,34 @@
+- name: Ethan J. Brown
+  image: ethan_brown
+  title: Senior Software Engineer at Puppet Labs, Inc.
+  testimonial: Josh is a highly productive and well-organized front end designer. He was hired at East Point Systems to head up user interface design and implementation for an AngularJS based web application. Josh was always ahead of schedule with the implementation of his responsibilities, so this allowed him to tackle other marketing duties where he saw a need for improvement. He personally interviewed staff to develop a benefits-based picture of product offerings, and he used this to simplify and relaunch a fresh design for the company website.
+
+- name: Ephraim Mower
+  image: ephraim_mower
+  title: Software Development Engineer at Evolution1
+  testimonial: Josh was a pleasure to work with. Not only does he have a grasp on UI and UX concerns and best practices, he is very pragmatic and takes the time to really understand what a business offers and how to best represent that digitally. In addition, his skill with the technology stack was great and he was always pushing to learn more.
+
+- name: Fred Johanns, III
+  image: fred_johanns
+  title: Software Developer / Team Lead at Beazley
+  testimonial: Josh has a great eye for simple design. His web sites are clean yet comprehensive. Beyond this, Josh is a self-starter in every sense of the term. He consumed design and marketing tasks in short order while the rest of us tried to keep up. This left him opportunities to start branching out into development work and left me impressed with his ambition.
+
+- name: Dan Allen
+  image: dan_allen
+  title: Vice President, East Point Systems, Inc.
+  testimonial: Joshua is a uniquely qualified individual with many different business talents. He has the ability to digest new information, whether technical or business and create actionable items. He was brought in as a UI designer but we got so much more. He designed our front end of our latest product and helped us redo the entire website for the company. He has the uncanny ability to take very little information and transform it into something great! He also has project management experience, and is extremely self motivated, needing little direction to move a company forward. Joshua is a hardworking professional, who I personally recommend for a UI designer, project manager and business analyst.
+
+- name: David Merkt
+  image: david_merkt
+  title: Quality Assurance Analyst, Evolution1
+  testimonial: Josh has a fantastic eye for elegant design, with the ability to distill complicated interface requirements into incredibly friendly user experiences. Once given project goals, he asks intelligent questions to verify goals, and produces a great product. He is a valuable member of any team.
+
+# - name: Keith Danforth
+  # image: keith_danforth
+  # title: Senior On-Call Specialist, The Walker Group
+  # testimonial: Although I only knew Josh for a short time, his design mockups for the company's upcoming product were fantastic to look at, very clean and very functional, and with each new update I felt the final product was truly going to be something to behold. As an amateur designer in my free time, I would have loved to have the opportunity to pick at his knowledge and learn a few new things to apply to my own work. Always a pleasure to converse with, and definitely recommended for any team.
+
+- name: Jason Margarido
+  image: jason_margarido
+  title: Senior Software Engineer, Executive VP of Technology 
+  testimonial: Josh has a fantastic eye for simple, functional design. His experience with web design is varied and extensive. He is capable of not only web site user experience design, but of efficient application interface design as well. When designing a new corporate web site, Josh interviewed everyone in the company and translated those requirements into an effective, modern web site design. His skills as an analyst are not to be overlooked. Josh has a strong desire to thoroughly understand why he is designing something. He puts himself in the shoes of the end users and produces interfaces that are pleasing to look at and productive to use.

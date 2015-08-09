@@ -1,0 +1,17 @@
+.nav--main
+  background-color: $lightgray
+  margin: 0
+  padding: 0
+  a 
+    padding: $default-padding 0
+    display: block
+    text-decoration: none
+    color: $gray
+  li 
+    list-style: none
+    +flex(1 0 auto)
+    text-align: center
+    text-transform: lowercase
+    &.active 
+      a 
+        color: $black

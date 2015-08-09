@@ -1,0 +1,64 @@
+@-webkit-keyframes grow
+  0%   
+    -moz-transform: scale(0)
+    -webkit-transform: scale(0)
+    transform: scale(0)
+  30%
+    -moz-transform: scale(1.05)
+    -webkit-transform: scale(1.05)
+    transform: scale(1.05)
+  60%
+    -moz-transform: scale(0.95)
+    -webkit-transform: scale(0.95)
+    transform: scale(0.95)
+@-moz-keyframes grow
+  0%   
+    -moz-transform: scale(0)
+    -webkit-transform: scale(0)
+    transform: scale(0)
+  30%
+    -moz-transform: scale(1.05)
+    -webkit-transform: scale(1.05)
+    transform: scale(1.05)
+  60%
+    -moz-transform: scale(0.95)
+    -webkit-transform: scale(0.95)
+    transform: scale(0.95)
+@-o-keyframes grow
+  0%   
+    -moz-transform: scale(0)
+    -webkit-transform: scale(0)
+    transform: scale(0)
+  30%
+    -moz-transform: scale(1.05)
+    -webkit-transform: scale(1.05)
+    transform: scale(1.05)
+  60%
+    -moz-transform: scale(0.95)
+    -webkit-transform: scale(0.95)
+    transform: scale(0.95)
+@keyframes grow
+  0%   
+    -moz-transform: scale(0)
+    -webkit-transform: scale(0)
+    transform: scale(0)
+  30%
+    -moz-transform: scale(1.05)
+    -webkit-transform: scale(1.05)
+    transform: scale(1.05)
+  60%
+    -moz-transform: scale(0.95)
+    -webkit-transform: scale(0.95)
+    transform: scale(0.95)
+
+=animation($name)
+  -webkit-animation: $name 1s ease-out backwards 
+  -moz-animation: $name 1s ease-out backwards 
+  -o-animation: $name 1s ease-out backwards 
+  animation: $name 1s ease-out backwards
+
+=animation-delay($duration)
+  -webkit-animation-delay: $duration
+  -moz-animation-delay: $duration
+  -o-animation-delay: $duration
+  animation-delay: $duration

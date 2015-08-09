@@ -1,0 +1,29 @@
+---
+title:  "CSS @Font-Face"
+date:   2015-04-14 20:05:48
+categories: css
+main_image: "typeface.jpg"
+flickr_attribution: Andreas.
+flickr_link: https://www.flickr.com/photos/124330160/262325976/in/photolist-pbunE-YMUjL-61nQq5-9jb1Wh-3gHuLv-aFNwLM-kfgYX-oVerzS-dW8p6k-4YGsBL-bnHxQ7-oCxR-8RhWYb-9pa6PB-DMHQU-GqbjE-r7qTJu-eWY39-eiy3W-6WuoQN-b9Fppr-6Wqozz-6K7SWF-4Lc4d5-9i1RGt-4Jk2iw-dDXqtZ-3Jyfdg-4AoAUk-qyr9BL-4Pfvnb-hyRxyt-4go2ia-5okC5H-beqaXv-8nDsE8-hpvLb-bpUSjF-4Pdfys-51XdJc-4GfKmH-dXJ2xP-5okBxk-51xnzq-5XhpBb-99jb7p-jqVas-5nkH3u-4YGsP3-8g48zB
+flickr_license: "https://creativecommons.org/licenses/by-sa/2.0/"
+---
+
+Adding custom fonts with the css @font-face rule is pretty easy, and pretty awesome.
+
+{% highlight css %}
+@font-face {
+  font-family: "Whatever Name I Want";
+  /* proprietary format for IE */
+  src: url('fonts/font-name.eot');
+  /* Hack for oldie */
+  src: url('fonts/font-name.eot?#iefix') format('embedded-opentype'),
+  /* Web open font format, for Mozilla (super fast) */
+  url('fonts/font-name.woff') format('woff'),
+  /* For Safari, Android and iOS display */
+  url('fonts/font-name.ttf') format('truetype')
+}
+
+h1 {
+  font-family: "Whatever I Want", sans-serif;
+}
+{% endhighlight %}
