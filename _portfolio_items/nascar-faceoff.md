@@ -17,7 +17,7 @@ Use the old project as a guide for designing similar game components for a new r
 This was a general re-skinning of an older application to work with a new set of branding guidelines set forth by NASCAR. We were taking a very image-heavy, web-2.0-style application and creating a new light, flat design with a more meaningful visual hierarchy. This was a matter of pulling down a Git Repo, launching an older Rails application, and looking for ways to improve the layout.
 
 ##Project Duration 
-I spent roughly two weeks redesigning the mocks.
+Design cycle was 1 week.
 
 ##Design Challenge
 I never really watched NASCAR prior to this project. I'd always thought the driver who crossed the finish line first was the driver who won. I had no concept of team racing. No concept of Chase Challenges, Sprints, etc. The big challenge here was in gaining an understanding of how this series of races was any different than the others.

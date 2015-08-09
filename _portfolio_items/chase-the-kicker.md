@@ -17,7 +17,7 @@ Primary designer and Sass, HTML, and PHP developer. Worked with another develope
 After seeing some great photography of him posted on HUDL, I purchased a few of the pics, and designed around them. The team’s uniform colors complimented the green fields beautifully, and I was able to spot sample a color scheme directly from the pictures. After a few iterations of comps, we agreed on an action-oriented, energetic layout.
 
 ##Project Duration
-Design and development cycle was about 2 weeks.
+Design and development cycle was 2 weeks.
 
 ##Design Challenge
 Chase was a yellow-chip recruit in high school. He knew he needed to work hard to gain the attention of college scouts. He had his eyes set on division one sports. Unfortunately, he didn’t work with coaches like Chris Saylor, or Kohl’s on a regular basis, and did not have their word of mouth support. He had to do it on his own. He needed help setting himself apart from other kickers who simply relied on their coach's marketing platforms and HUDL to display their data. So, in his junior year of high school, we designed and built him a marketing platform.

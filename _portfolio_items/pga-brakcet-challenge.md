@@ -18,6 +18,7 @@ UI Designer and Front End Developer
 This project was all about modular design, as there were numerous repeating components in varying states. Each player, and roster slot was a repeating element that could be within a roster group. The bracket lines were a fun challenge of `:before` and `:after` content, and I enjoyed replicating some material design button elements without using the canvas element.
 
 ##Project Duration
+Design and development cycle was 6 weeks.
 
 ##Design Challenges
 

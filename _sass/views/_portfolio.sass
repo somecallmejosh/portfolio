@@ -2,6 +2,9 @@
   &--teasers
     width: 100%
     .card
+      position: relative
+      img.mobile-pic
+        position: absolute
       +animation(grow)
       &:first-child
         +animation-delay(.2s)
@@ -28,6 +31,15 @@
         +flex(1 0 30%)
   &--single
     +animation(grow)
+    header
+      position: relative
+      .mobile-pic
+        position: absolute
+        top: 173px
+        right: 50%
+        width: 100px
+        margin-right: -100px
+        height: auto
     +media-min(800px)
       +display-flex
       +flex-wrap(wrap)
