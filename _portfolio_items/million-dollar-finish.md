@@ -4,20 +4,26 @@ client: "Breeders' Cup"
 image: mdf
 date:   2015-06-26 04:52:51
 layout: portfolio
-
-objective: Design and develop a Fantasy Sporting desktop and mobile web application for Breeder's Cup fans. The object of the game is to predict the order of horses across the finish line. $1M dollars will be awarded to the player who gets every horse in the top 10 positions correct. Include public and private leagues, leaderboard, celebrity picking, social sharing. 
-
-my_role_on_project: Primary designer and front end developer working with rails development team and project manager.
-
-creative_process: After gaining an understanding of the scope of the game, I created a mood board by finding common design elements in Breeders' Cup events. Silks. Flowers. Color schemes. The typography and action item elements were pre defined in the Breeders' Cup style guide, and the main challenge was creating a game interface that worked within those specifications. The next step was wireframing the main section of the game, the prediction interface, for desktop and mobile. Once that was agreed upon, the appropriate styles were set in place, and QA testing ensued.
-
-project_duration: Design and development cycle was around 2 months
-
-design_challenge: This was my first fantasy gaming up. The idea of designing for different states of a sporting event was a new challenge for me. The "pre race" layout was different than the "live race" layout, and those were different than the "post race." Each one of those sections were different as well. Pre-race, picks not yet opened. Pre-race, picks opened. Pre-race, picks closed. Post race, unscored. Post race, scored. All of these varying layouts took place within the same view. 
-
-challenge_resolution: I quickly learned that scoping based on a game state was very similar to responsive design, in theory. Rather than scoping features to a media query, they were scoped to a class. Once I got my head wrapped around that, things were good to go! 
-
-business_result: 3 year project extension after first season
-
+project_url: http://www.milliondollarfinish.com/
 ---
 
+##Objective
+Design and develop a fantasy sports desktop and mobile web application for Breeder's Cup. The object of the game is to predict the order of the top 10 horses across the finish line. $1M dollars will be awarded to the player who accurately predicts every pick. Include public and private leagues, leaderboard, celebrity picking, social sharing. 
+
+##My Role
+Primary designer and front end developer working with rails development team and project manager. Also worked with 3rd party independent contractor who provided the site’s primary content wrapper.
+
+##Creative Process
+After gaining an understanding of the scope of the game, I created a mood board by finding common design elements in Breeders' Cup events. I was never a horse racing fan before this project, so I had lots to learn. My mood board included things like silks (the numbers on the horses), flowers (the purple and yellow flowers given to the winner), differing track logos, jockey jersey colors, and more. The typography and action item elements were already laid out in the primary Breeders' Cup website. I was able to stay consistent with their gutter padding, vertical rhythm (line height), action items (buttons), typographical hierarchy, etc. to maintain consistency with their existing website.
+
+##Project Duration
+Design and development cycle was around 2 months
+
+##Design Challenge
+This was my first fantasy gaming up. The idea of designing for different states of a sporting event was a new challenge for me. The "pre race" layout was different than the "live race" layout, and the “live race” was different than "post race." Each one of those sections were different as well. “Pre-race”, was broken down into “picks not yet opened”, “picks opened” and “picks closed.” Each of these phases would require different ui elements, some actionable, some visible but not actionable, etc.  All of these varying layouts took place within the same view. This was a major departure from the marketing oriented websites from my past. 
+
+##Challenge Resolution
+I quickly learned that scoping based on a game state was very similar to responsive design, in theory. Rather than scoping features to a media query, they were scoped to a class. Once I got my head wrapped around that, things were good to go! 
+
+##Business Result
+3 year project extension after first season
