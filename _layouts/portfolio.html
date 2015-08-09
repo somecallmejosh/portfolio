@@ -4,7 +4,7 @@ layout: default
 <section class="portfolio--single">
   <header>
     <h1>{{page.title}}</h1>
-    <img src="/assets/images/portfolio/{{page.image}}.png" alt="{{page.title}}" class="img-responsive">
+    <img src="{{site.baseurl}}/assets/images/portfolio/{{page.image}}.png" alt="{{page.title}}" class="img-responsive">
   </header>
   <article class="portfolio--content">
     <h1>Portfolio Item: {{page.title}}</h1>
@@ -22,7 +22,7 @@ layout: default
     <p>{{page.challenge_resolution}}</p>
     <h2>Business Results</h2>
     <p>{{page.business_result}}</p>
-    <a href="/portfolio" class="button">
+    <a href="{{site.baseurl}}/portfolio" class="button">
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
         <path d="M11.56 5.56L10.5 4.5 6 9l4.5 4.5 1.06-1.06L8.12 9z"/>
       </svg>

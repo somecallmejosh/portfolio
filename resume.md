@@ -8,7 +8,7 @@ permalink: /resume/
   {% for job in site.data.jobs %}
     <div class="card">
       <div class="resume--logo">
-        <img src="/assets/images/resume/{{job.image}}.png" alt="{{job.employer}} Logo">
+        <img src="{{site.baseurl}}/assets/images/resume/{{job.image}}.png" alt="{{job.employer}} Logo">
       </div>
       <div class="resume--content">
         <h2><strong>{{job.job_title}}</strong></h2>
