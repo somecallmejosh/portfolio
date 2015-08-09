@@ -41,4 +41,4 @@ defaults:
 collections:
   portfolio_items:
     output: true
-    permalink: /portfolio/projects/:title/
+    permalink: :title/
