@@ -1,7 +1,7 @@
 ---
-title: Testimonials
-headline: Testimonials
-permalink: /testimonials/
+title: Kudos
+headline: Kudos
+permalink: /kudos/
 ---
 <setcion class="testimonials">
   {% for testimonial in site.data.testimonials %}
