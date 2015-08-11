@@ -6,6 +6,7 @@ header
     width: 100%
     font-weight: normal
     text-transform: lowercase
+    @extend %wf-loading
     a 
       text-decoration: none
       color: $black
@@ -13,8 +14,10 @@ header
         color: $link-color
       &:visited
         color: $black
+      @extend %wf-loading
     small 
       font-size: 60%
+      @extend %wf-loading
   a
     margin-left: auto
   .content--primary &
