@@ -49,5 +49,12 @@
     {% endif %}
   </ul>
 </footer>
+
 <script src="//use.typekit.net/ahi0byh.js"></script>
-<script>try{Typekit.load();}catch(e){}</script>
+<script>
+  // I'm aware of the async loading option of this script.
+  // The performance of this site is good enough to forego any worries about FOUC.
+  try{Typekit.load({ async: true });}catch(e){}
+</script>
+
+
