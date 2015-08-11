@@ -3,7 +3,6 @@ title: Resume
 headline: Résumé
 permalink: /resume/
 ---
-
 <section class="resume--items">
   {% for job in site.data.jobs %}
     <div class="card">
