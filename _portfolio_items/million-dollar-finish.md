@@ -2,7 +2,7 @@
 title:  "Breeders' Cup Million Dollar Finish"
 client: "Breeders' Cup"
 image: mdf
-mobile_image: mdf-mobile1-207x300
+mobile_image: mdf-mobile
 date:   2015-06-26 04:52:51
 layout: portfolio
 project_url: http://www.milliondollarfinish.com/

@@ -3,7 +3,7 @@ title:  "NHL Hat Trick Challenge"
 client: "National Hockey League"
 project_type: "Design and Front End Development of Mobile and Native Fantasy Sporting App"
 image: nhl-htc
-mobile_image: nhl-hat-trick-mobile-207x300
+mobile_image: nhl-hat-trick-mobile
 date:   2015-06-26 04:52:51
 layout: portfolio
 project_url: http://hattrick.nhl.com/

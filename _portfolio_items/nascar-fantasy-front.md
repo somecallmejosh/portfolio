@@ -3,7 +3,7 @@ title:  "NASCAR Fantasy Front"
 client: "NASCAR"
 project_type: "Design and Front End Development of Rebranding of Fantasy Sports Marketing Pages."
 image: nascar-front
-mobile_image: nascar-front-mobile-207x300
+mobile_image: nascar-front-mobile
 date:   2015-06-26 04:52:51
 layout: portfolio
 project_url: http://fantasygames.nascar.com/

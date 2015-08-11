@@ -7,7 +7,7 @@ permalink: /portfolio/
   {% for portfolio_item in site.portfolio_items %}
     <article class="card">
       <a href="{{portfolio_item.url | prepend: site.baseurl}} ">
-        <img src="{{site.baseurl}}/assets/images/portfolio/{{portfolio_item.image}}.png" alt="{{portfolio_item.title}}" class="img-responsive">
+        <img src="{{site.baseurl}}/assets/images/portfolio/desktop/1x/{{portfolio_item.image}}.jpg" alt="{{portfolio_item.title}}" class="img-responsive">
         <p>
           {{portfolio_item.title}}
         </p> 
