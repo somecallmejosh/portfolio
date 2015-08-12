@@ -10,12 +10,13 @@
     a, span
       display: inline-block
       line-height: 32px
-    +media-min(800px)
+    +media-min(650px)
       +display-flex
       +flex-wrap(wrap)
       .card
         +flex(1 0 45%)
         margin: 0 $small-padding $default-padding
-    +media-min(1100px)
+        +flex-align-items(top)
+    +media-min(1400px)
       .card
         +flex(1 0 20%)

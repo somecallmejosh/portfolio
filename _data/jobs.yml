@@ -1,26 +1,26 @@
 - employer: Sports Technologies, LLC
   dates: Jul 2013&ndash;Present
   image: sti
-  job_title: Designer & Front End Dev
+  job_title: Designer & <br>Front End Dev
   job_description: "<li>Front End Design and Development of Fantasy Sports Applications.</li><li>We develop awesome gaming apps for professional sports organizations.</li><li>Primary responsibilities include Haml, Sass, JS/JQuery development in RoR stack.</li>"
   website: http://www.sportstechinc.com
 
 - employer: East Point Systems, Inc
   image: eps
   dates: Jan 2013&ndash;May 2013
-  job_title: Designer & Front End Dev
+  job_title: Designer & <br>Front End Dev
   job_description: "<li>Front End Design & Development of social business application.</li><li>Primary UX/UI designer on short term, large scale web application.</li><li>Saved company $10K/year by minimizing server side dependencies on company website.</li>"
   website: http://www.eastpointsystems.com
 
 - employer: ImageWorks, LLC
   image: iw
   dates: Aug 2008&ndash;Jan 2013
-  job_title: Designer & Front End Dev
+  job_title: Designer & <br>Front End Dev
   job_description: "<li>Front End Design & Development of marketing websites.</li><li>Decreased organizational project development time by more than 50%.</li><li>Designed and developed projects featured on The Food Network and the Hartford Business Journal.</li>"
   website: http://www.imageworksllc.com
 
 - employer: Para-Diddle Design, LLC
   image: pdd
   dates: Jan 2004&ndash;Aug 2008
-  job_title: Co-Owner / Designer & Front End Dev
+  job_title: Designer & <br>Front End Dev
   job_description: "<li>Front End Design & Development of small business websites.</li><li>Responsible for vision, budgeting, marketing/sales and other administrative tasks.</li><li>Increased team productivy through consistent training.</li>"
