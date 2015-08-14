@@ -5,14 +5,6 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <script>
-    // only load respimage if browser doesn't support responsive images.
-    function loadJS(u){var r = document.getElementsByTagName( "script" )[ 0 ], s = document.createElement( "script" );s.src = u;r.parentNode.insertBefore( s, r );}
-    if(!window.HTMLPictureElement){
-      document.createElement('picture');
-      loadJS("respimage.min.js");
-    }
-  </script>
-  <script>
     // Load typekit font
     // add .wf-loading class to styles to account for FOUC
     (function(d) {

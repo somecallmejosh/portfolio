@@ -3,7 +3,7 @@ title: Resume
 headline: Résumé
 permalink: /resume/
 ---
-<section class="resume--items">
+<div class="resume--items">
   {% for job in site.data.jobs %}
     <div class="card">
       <div class="resume--content">
@@ -25,4 +25,4 @@ permalink: /resume/
       </div>
     </div> 
   {% endfor %}
-</section>
+</div>
