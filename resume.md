@@ -10,10 +10,10 @@ permalink: /resume/
         <h2>{{job.job_title}}</h2>
         <p>
           <img
-              srcset="{{site.baseurl}}/assets/images/resume/1x/{{job.image}}.jpg 1x,
-                  {{site.baseurl}}/assets/images/resume/2x/{{job.image}}.jpg  2x"
-              src="{{site.baseurl}}/assets/images/resume/1x/{{job.image}}.jpg .jpg"
-              alt="{{job.employer}} Logo" />
+            src="{{site.baseurl}}/assets/images/resume/1x/{{job.image}}.jpg .jpg"
+            srcset="{{site.baseurl}}/assets/images/resume/1x/{{job.image}}.jpg 1x,
+              {{site.baseurl}}/assets/images/resume/2x/{{job.image}}.jpg  2x"
+            alt="{{job.employer}} Logo" />
           {% if job.website %}
             <a href="{{job.website}}">{{job.employer}}</a>
             {% else %}
