@@ -11,14 +11,14 @@ work_org: Sports Technologies, LLC
 work_link: http://www.sportstechinc.com
 description: Web design and development portfolio of Joshua Briley
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://joshuabriley.com" # the base hostname & protocol for your site
+url: "http://somecallmejosh.com" # the base hostname & protocol for your site
 exclude: [vendor]
 sass:
   style: :compressed
 
-compass:
-  images_path: assets/images
-  generated_images_path: assets/images
+# compass:
+#   images_path: assets/images
+#   generated_images_path: assets/images
 
 # Build settings
 markdown: kramdown

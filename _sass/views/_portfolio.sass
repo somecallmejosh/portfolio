@@ -32,6 +32,7 @@
   &--single
     header
       position: relative
+      //+flex-wrap(no-wrap)
       .mobile-pic
         position: absolute
         top: 173px
@@ -39,9 +40,13 @@
         width: 100px
         margin-right: -100px
         height: auto
+      h1, img
+        display: block
+      h1 
+        width: 100%
     +media-min(800px)
       +display-flex
-      +flex-wrap(wrap)
+      //+flex-wrap(wrap)
       border-top: $lightgray 1px solid
       header, .portfolio--content
         +flex(1 0 45%)
@@ -50,4 +55,3 @@
         box-shadow: inset 0 7px 9px -7px rgba($black, .05), inset -7px 0 9px -7px rgba($black, .05)
       header
         +flex-order(1)
-        box-shadow: none
