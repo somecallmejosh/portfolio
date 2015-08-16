@@ -4,7 +4,7 @@ client: "Chase Briley"
 image: chasethekicker
 date:   2015-06-26 04:52:51
 layout: portfolio
-project_url: https://github.com/somecallmejosh/chasethekicker
+project_url: http://chasethekicker.herokuapp.com/
 ---
 
 ##Objective
