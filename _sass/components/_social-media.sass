@@ -4,10 +4,13 @@
   width: 100%
   li
     list-style: none
-    +flex(1 0 20%)
     background-color: $white
     padding: $default-padding $small-padding
     text-align: center
+    // For ie9
+    display: inline-block
+    width: calc(20% - 4px)
+    +flex(1 0 20%)
   svg 
     fill: $black
     @extend %default-transition

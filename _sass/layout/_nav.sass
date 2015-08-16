@@ -10,6 +10,9 @@
     @extend %wf-loading
   li 
     list-style: none
+    // for ie 9
+    display: inline-block
+    width: calc(25% - 4px)
     +flex(1 0 auto)
     text-align: center
     text-transform: lowercase

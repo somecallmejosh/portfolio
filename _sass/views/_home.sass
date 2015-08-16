@@ -12,6 +12,10 @@
     +display-flex
     +flex-align-items(center)
     &--image, &--content
+      // for ie9
+      display: inline-block
+      width: 50%
+      vertical-align: middle
       +flex(1 0 50%)
     &--image
       +flex-order(1)
