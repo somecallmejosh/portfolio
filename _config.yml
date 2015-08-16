@@ -16,9 +16,6 @@ exclude: [vendor]
 sass:
   style: :compressed
 
-gems:
-  - jekyll-compass
-
 compass:
   images_path: assets/images
   generated_images_path: assets/images
