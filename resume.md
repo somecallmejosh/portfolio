@@ -2,6 +2,7 @@
 title: Resume
 headline: Résumé
 permalink: /resume/
+menu: main
 ---
 <div class="resume--items">
   {% for job in site.data.jobs %}

@@ -2,6 +2,7 @@
 title: Kudos
 headline: Kudos
 permalink: /kudos/
+menu: main
 ---
 <div class="testimonials">
   {% for testimonial in site.data.testimonials %}

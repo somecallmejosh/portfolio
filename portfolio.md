@@ -2,6 +2,7 @@
 title: Portfolio
 headline: Portfolio
 permalink: /portfolio/
+menu: main
 ---
 <div class="portfolio--teasers">
   {% for portfolio_item in site.portfolio_items %}
