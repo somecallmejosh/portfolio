@@ -7,8 +7,8 @@ twitter_username: joshuabriley
 github_username:  somecallmejosh
 dribbble_username: joshuabriley
 treehouse_username: joshuabriley
-work_org: Sports Technologies, LLC
-work_link: http://www.sportstechinc.com
+work_org: America's Test Kitchen
+work_link: http://www.americastestkitchen.com
 description: Web design and development portfolio of Joshua Briley
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://somecallmejosh.com" # the base hostname & protocol for your site
@@ -21,9 +21,9 @@ markdown: kramdown
 permalink: /:title
 
 #Default Settings
-defaults: 
-  - 
-    scope: 
+defaults:
+  -
+    scope:
       path: ""
       type: "posts"
     values:
@@ -31,8 +31,8 @@ defaults:
       author: Joshua Briley
       category: design
       permalink: /blog/:title/
-  - 
-    scope: 
+  -
+    scope:
       path: ""
       type: "pages"
     values:
