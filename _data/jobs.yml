@@ -1,26 +1,27 @@
+- employer: America's Test Kitchen
+  dates: 2016&ndash;Present
+  image: atk_logo
+  job_title: Senior <br>Software Engineer
+  job_description: "<li>Front end development and architecture of content verticals</li><li>Front end performance optimization for Cooks Illustrated.</li>"
+  website: http://www.americastestkitchen.com
+
 - employer: Sports Technologies, LLC
-  dates: Jul 2013&ndash;Present
+  dates: 2013&ndash;2016
   image: sti
   job_title: Designer & <br>Front End Dev
   job_description: "<li>Design and front end development of fantasy sports apps for NFL, NASCAR, MLS, PGA, NHL and other professional sporting organizations.</li><li>Increased team organization and consistency by developing SOPs and project workflow documents.</li><li>Helped save $2500 on internal product branding by introducing LEAN marketing strategies.</li>"
   website: http://www.sportstechinc.com
 
-- employer: East Point Systems, Inc
-  image: eps
-  dates: Jan 2013&ndash;May 2013
-  job_title: Designer & <br>Front End Dev
-  job_description: "<li>Primary UI designer/developer for large social web application for mortgage repossession industry professionals.</li><li>Planned and developed landing page testing scenarios for maximum conversion.</li><li>Saved company $10K/year by minimizing server side dependencies on company website.</li>"
-  website: http://www.eastpointsystems.com
 
 - employer: ImageWorks, LLC
   image: iw
-  dates: Aug 2008&ndash;Jan 2013
+  dates: 2008&ndash;2013
   job_title: Designer & <br>Front End Dev
   job_description: "<li>Strategized and implemented systems that decreased design and front end development time by more than 70%.</li><li>Implemented Lunch-and-Learn Friday to train staff on standards based front end development techniques.</li><li>Designed and developed projects featured on The Food Network and Hartford Business Journal.</li>"
   website: http://www.imageworksllc.com
 
 - employer: Para-Diddle Design, LLC
   image: pdd
-  dates: Jan 2004&ndash;Aug 2008
+  dates: 2004&ndash;2008
   job_title: Designer & <br>Front End Dev
   job_description: "<li>Responsible for vision, budgeting, marketing/sales and other administrative tasks.</li><li>Educated local business networking communities on conversion oriented design principles.</li><li>Increased productivity by training staff on efficient coding and workflow practices.</li>"

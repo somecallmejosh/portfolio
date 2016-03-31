@@ -24,10 +24,19 @@ menu: main
       <div class="resume--content">
         <h2>{{job.job_title}}</h2>
         <p>
+
           <img
-            src="{{site.baseurl}}/assets/images/resume/1x/{{job.image}}.jpg"
-            srcset="{{site.baseurl}}/assets/images/resume/1x/{{job.image}}.jpg 1x,
-              {{site.baseurl}}/assets/images/resume/2x/{{job.image}}.jpg 2x"
+
+          {% if job.employer == "America's Test Kitchen" %}
+              src="{{site.baseurl}}/assets/images/resume/1x/{{job.image}}.png"
+              srcset="{{site.baseurl}}/assets/images/resume/1x/{{job.image}}.png 1x,
+              {{site.baseurl}}/assets/images/resume/2x/{{job.image}}.png 2x"
+            {%else%}
+              src="{{site.baseurl}}/assets/images/resume/1x/{{job.image}}.jpg"
+              srcset="{{site.baseurl}}/assets/images/resume/1x/{{job.image}}.jpg 1x,
+                {{site.baseurl}}/assets/images/resume/2x/{{job.image}}.jpg 2x"
+          {%endif%}
+
             alt="{{job.employer}} Logo" />
           {% if job.website %}
             <a href="{{job.website}}">{{job.employer}}</a>
